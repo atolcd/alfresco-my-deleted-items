@@ -1,0 +1,113 @@
+/**
+ * Copyright (C) 2013 Atol Conseils et Développements.
+ * http://www.atolcd.com/
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+**/
+
+.deleted-items .header-bar {
+  height: 2em;
+  padding: 0.3em;
+  margin: 1.5em 1em 0 0.5em;
+  background-color: #e3eaec;
+  border-bottom: 2px solid #f0f3f4;
+  font-weight: bold;
+  font-size: 116%;
+}
+
+.deleted-items hr {
+  margin-right: 1.1em;
+}
+
+.deleted-items .row {
+  padding: 0.333em;
+}
+
+.deleted-items .label {
+  display: block;
+  float: left;
+  padding-right: 0.8em;
+  padding-top: 0.2em;
+  width: 16em;
+  text-align: right;
+  font-weight: bold;
+}
+
+.deleted-items .name {
+  font-size: 116%;
+  font-weight: bold;
+  padding-bottom: 0.2em;
+}
+
+.deleted-items .align-left {
+  float: left;
+  padding-top: 5px;
+}
+
+.deleted-items .align-right {
+  float: right;
+  font-size: 93%;
+}
+
+.deleted-items .desc {
+  padding-bottom: 0.2em;
+}
+
+.deleted-items input {
+  margin-top: 0.25em;
+}
+
+.deleted-items .buttons {
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+/* Data Table */
+.deleted-items .alfresco-datatable {
+  border-bottom: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  padding: 0 0.3em 0.3em 0.3em;
+  margin: 0 1.2em 0em 0.6em;
+}
+
+.deleted-items .yui-dt table {
+  width: 100%;
+}
+
+.deleted-items .yui-dt thead {
+  display: none;
+}
+
+.deleted-items .yui-dt tbody {
+  outline: none;
+}
+
+.deleted-items .yui-dt tr.yui-dt-even,
+.deleted-items .yui-dt tr.yui-dt-odd {
+  background-color: #ffffff;
+}
+
+.deleted-items .yui-dt td .yui-dt-liner {
+  padding: auto auto;
+}
+
+.deleted-items td.yui-dt-col-actions {
+  padding-top: 15px;
+}
+
+.deleted-items .yui-dt .yui-dt-message td {
+  border: medium none;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="AMP Build Files" default="dist-amp" basedir=".">
+  <property name="dist.dir" value="${basedir}/dist"/>
+
+  <target name="mkdirs" depends="clean">
+    <mkdir dir="${dist.dir}" />
+  </target>
+
+  <target name="clean">
+    <delete dir="${dist.dir}" />
+  </target>
+
+  <target name="dist-amp" depends="mkdirs" description="Package modules">
+    <ant antfile="build.xml" target="build-amp" dir="${basedir}/module_alfresco" inheritrefs="true">
+      <property name="dist.dir" value="../dist"/>
+      <property file="${basedir}/build.properties"/>
+    </ant>
+    <ant antfile="build.xml" target="build-amp" dir="${basedir}/module_share">
+      <property name="dist.dir" value="../dist"/>
+    </ant>
+  </target>
+</project>
