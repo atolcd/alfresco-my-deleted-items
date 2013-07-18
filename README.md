@@ -32,7 +32,7 @@ This extension is a standard Alfresco Module, so experienced users can skip thes
         java -jar alfresco-mmt.jar install auditshare-module-alfresco-X.X.X.amp $TOMCAT_HOME/webapps/alfresco.war -force
         java -jar alfresco-mmt.jar install auditshare-module-share-X.X.X.amp $TOMCAT_HOME/webapps/share.war -force
 
-3. Delete the '$TOMCAT_HOME/webapps/alfresco/' and '$TOMCAT_HOME/webapps/share/' folders.  
+3. Delete the '$TOMCAT_HOME/webapps/alfresco/' and '$TOMCAT_HOME/webapps/share/' folders.
 **Caution:** please ensure you do not have unsaved custom files in the webapp folders before deleting.
 4. Start Alfresco
 
@@ -54,12 +54,12 @@ You can deploy/undeploy AuditShare menus directly from : `http://server:port/sha
 LICENSE
 ---------------------
 
-This extension is licensed under `GNU Library or "Lesser" General Public License (LGPL)`.
+This extension is licensed under `GNU Library or "Lesser" General Public License (LGPL)`.  
 Created by: [Julien BERTHOUX] (https://github.com/jberthoux) and [Bertrand FOREST] (https://github.com/bforest)
 
 
 Our company
 ---------------------
 
-[Atol Conseils et Développements] (http://www.atolcd.com) is Alfresco [Gold Partner] (http://www.alfresco.com/partners/atol)
-Follow us on twitter [ @atolcd] (https://twitter.com/atolcd)
+[Atol Conseils et DÃ©veloppements] (http://www.atolcd.com) is Alfresco [Gold Partner] (http://www.alfresco.com/partners/atol)  
+Follow us on twitter [ @atolcd] (https://twitter.com/atolcd)  
