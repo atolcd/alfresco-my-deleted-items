@@ -143,7 +143,7 @@ if (typeof Atol == "undefined" || !Atol) { var Atol = {}; }
 
                 Alfresco.util.Ajax.request(
                 {
-                   url: Alfresco.constants.PROXY_URI + "api/archive/workspace/SpacesStore",
+                   url: Alfresco.constants.PROXY_URI + "repository/archive/archive/SpacesStore?username=" + Alfresco.constants.USERNAME,
                    method: "DELETE",
                    successCallback:
                    {
@@ -231,7 +231,7 @@ if (typeof Atol == "undefined" || !Atol) { var Atol = {}; }
              // make ajax call to Recover the item
              Alfresco.util.Ajax.request(
              {
-                url: Alfresco.constants.PROXY_URI + "api/archive/" + obj.nodeRef.replace(":/",""),
+                url: Alfresco.constants.PROXY_URI + "repository/archive/" + obj.nodeRef.replace(":/",""),
                 method: "PUT",
                 successCallback:
                 {
@@ -254,7 +254,7 @@ if (typeof Atol == "undefined" || !Atol) { var Atol = {}; }
              // make ajax call to Delete the item
              Alfresco.util.Ajax.request(
              {
-                url: Alfresco.constants.PROXY_URI + "api/archive/" + obj.nodeRef.replace(":/",""),
+                url: Alfresco.constants.PROXY_URI + "repository/archive/" + obj.nodeRef.replace(":/",""),
                 method: "DELETE",
                 successCallback:
                 {

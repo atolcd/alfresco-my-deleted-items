@@ -1,0 +1,35 @@
+<!--
+ * Copyright (C) 2013 Atol Conseils et Développements.
+ * http://www.atolcd.com/
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<webscript>
+   <shortname>DELETE permanently (purge) a node or nodes from the archive.</shortname>
+   <description><![CDATA[
+   DELETE /atol/archive/{store_type}/{store_id} purges all items from the archive store which were<br/>
+   originally located in the specified Store. e.g. workspace://SpacesStore<br/>
+   TODO.<br/>
+   DELETE /atol/archive/{store_type}/{store_id}/{id} purges the specified item from the archive store.<br/>
+   For this call, the URL should identify the Node's current NodeRef e.g. archive://SpacesStore/1234-5678-90<br/>
+   ]]>
+   </description>
+   <url>/repository/archive/{store_type}/{store_id}</url>
+   <url>/repository/archive/{store_type}/{store_id}/{id}</url>
+   <format default="json" />
+   <authentication runas="admin">user</authentication>
+   <transaction>required</transaction>
+   <lifecycle>internal</lifecycle>
+</webscript>
