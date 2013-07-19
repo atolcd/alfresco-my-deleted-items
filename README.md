@@ -22,6 +22,12 @@ To build AMP files, run the following command from the base project directory:
         ant dist-amp
 
 
+Download AMP modules
+-------------------
+Don't want to compile sources?
+You can download latest stable version here: http://labs.atolcd.com/projects/my-deleted-items/files
+
+
 Installing the module
 ---------------------
 This extension is a standard Alfresco Module, so experienced users can skip these steps and proceed as usual.
