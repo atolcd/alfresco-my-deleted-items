@@ -25,12 +25,12 @@
         class="com.atolcd.repo.web.scripts.archive.ArchivedNodesGet"
         parent="baseArchivedNodeWebScript">
   </bean>
-  
+
   <bean id="webscript.com.atolcd.repository.archive.archivednode.put"
         class="org.alfresco.repo.web.scripts.archive.ArchivedNodePut"
         parent="baseArchivedNodeWebScript">
    </bean>
-    
+
    <bean id="webscript.com.atolcd.repository.archive.archivednodes.delete"
         class="com.atolcd.repo.web.scripts.archive.ArchivedNodesDelete"
         parent="baseArchivedNodeWebScript">

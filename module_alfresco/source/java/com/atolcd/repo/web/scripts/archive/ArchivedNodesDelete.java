@@ -43,7 +43,7 @@ import org.springframework.extensions.webscripts.WebScriptRequest;
 
 /**
  * This class is the controller for the deletednodes.delete web script.
- * 
+ *
  * @author Julien BERTHOUX
  */
 public class ArchivedNodesDelete extends AbstractArchivedNodeWebScript {
