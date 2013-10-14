@@ -35,8 +35,8 @@ This extension is a standard Alfresco Module, so experienced users can skip thes
 1. Stop Alfresco
 2. Use the Alfresco [Module Management Tool](http://wiki.alfresco.com/wiki/Module_Management_Tool) to install the modules in your Alfresco and Share WAR files:
 
-        java -jar alfresco-mmt.jar install auditshare-module-alfresco-X.X.X.amp $TOMCAT_HOME/webapps/alfresco.war -force
-        java -jar alfresco-mmt.jar install auditshare-module-share-X.X.X.amp $TOMCAT_HOME/webapps/share.war -force
+        java -jar alfresco-mmt.jar install $ALFRESCO_HOME/amps/my-deleted-items-alfresco-module-X.X.X.amp $TOMCAT_HOME/webapps/alfresco.war -force
+        java -jar alfresco-mmt.jar install $ALFRESCO_HOME/amps_share/my-deleted-items-share-module-X.X.X.amp $TOMCAT_HOME/webapps/share.war -force
 
 3. Delete the '$TOMCAT_HOME/webapps/alfresco/' and '$TOMCAT_HOME/webapps/share/' folders.  
 **Caution:** please ensure you do not have unsaved custom files in the webapp folders before deleting.
